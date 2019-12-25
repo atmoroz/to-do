@@ -1,0 +1,22 @@
+.toDoMain {
+  width: 80%;
+  margin: 0 auto;
+}
+.toDoNumList,
+.toDoForm {
+  width: 80%;
+}
+.toDoForm {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid transparent !important;
+}
+.MuiInputBase-root.toDoForm.toDoFormIsEmpty:after {
+  border-bottom: 2px solid red;
+}
+.MuiInput-underline.toDoForm:after {
+  border: 0;
+}
+.MuiInputBase-root {
+  width: 80%;
+}

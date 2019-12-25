@@ -1,0 +1,21 @@
+.toDoListWrapper {
+  display: flex;
+  justify-content: space-between;
+  min-width: 80%;
+}
+.toDoList {
+  text-decoration: none;
+  width: 80%;
+}
+.toDoList > p {
+  text-transform: capitalize;
+  border-bottom: 2px solid grey;
+}
+.toDoListChecked.toDoList {
+  text-decoration: line-through;
+  color: red;
+}
+.MuiSvgIcon-root {
+  cursor: pointer;
+  vertical-align: middle;
+}
